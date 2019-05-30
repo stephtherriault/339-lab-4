@@ -1,0 +1,183 @@
+/*
+  STYLE GUIDE STYLING
+  Default styling for the style guide
+*/
+body {
+  /*font-family: sans-serif;*/
+  font-family: 'Hind', sans-serif;
+  padding: 2rem;
+}
+
+h1{
+  font-family: 'Porter', sans-serif;
+  font-size: 2rem;
+}
+
+.h1-highlight{
+  color: #E62B1E;
+}
+
+/* nav {
+  font-family: 'Porter', sans-serif;
+} */
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+}
+
+
+/*
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.35em 0.6em;
+  color: #E62B1E;
+  border: 2px solid #E62B1E;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+
+}
+
+
+.button-nav:hover, .button-nav:focus {
+  background-color: #E62B1E;
+  color: #FFF;
+
+}
+
+.in-text-nav:link, .in-text-nav:visited{
+
+  border-bottom:2px solid #FF9494;
+  /*text-decoration: underline;*/
+  text-decoration: none;
+  color: #E62B1E;
+}
+
+.in-text-nav:hover, .in-text-nav.active{
+  border-bottom:none;
+  text-decoration: none;
+  color: #FF9494
+
+}
+
+.main-nav{
+  display: block;
+  padding: 0.35em 0.6em;
+  text-decoration: none;
+  text-align: center;
+}
+.main-nav:link, .main-nav:visited{
+
+  border-bottom:none;
+  color: #FFF;
+  background-color: #000;
+}
+
+.main-nav:hover, .main-nav:active{
+  background-color: #E62B1E;
+  color: #FFF;
+  transition: color 0.5s ease-out;
+  transition: background-color 0.3s ease-out;
+}
+
+.text-field{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+.text-field:focus{
+  border: 2px solid #E62B1E;
+
+}
+
+
+
+
+
+/*
+  TEXT ELEMENTS -------------------
+*/
+
+
+
+
+/*
+  COMBINED ELEMENTS -------------------
+*/
+
+.content-overview h3 {
+	margin: 0;
+  color: red;
+}
+
+.content-overview p {
+  padding-right: 2rem;
+}
+
+.content-overview img{
+  padding-top: 2rem;
+}
+
+.grid-demo {
+  background: red;
+  height: 10rem;
+  color: white;
+}
+
+.box-item-demo{
+border: 2px solid white;
+}
+
+.color-swatch{
+  height: 3rem;
+  width:15rem;
+  color: white;
+
+}
+
+.red-light{
+  background-color: #FF9494;
+}
+
+.red-ted{
+  background-color: #E62B1E;
+  color:#FFF;
+}
+
+.black{
+  background-color: #000;
+}
+.white{
+  background-color: #FFF;
+  color: black;
+  border: 1px solid black;
+}
+.white p {
+  padding:0;
+  margin: 0;
+}
