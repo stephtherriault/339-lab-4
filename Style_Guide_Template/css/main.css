@@ -40,6 +40,10 @@ section code {
   padding: 0.5em 0.75em;
 }
 
+img{
+  max-width:100%;
+}
+
 
 /*
   INTERACTIVE ELEMENTS -------------------
