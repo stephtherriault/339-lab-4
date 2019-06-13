@@ -133,6 +133,30 @@ section code {
 
 }
 
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#home{
+  background: url(../img/mosaic.png)no-repeat center center fixed;
+}
+
+.home-opening-text h4{
+  color:white;
+
+}
+.home-opening-text{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  width: 20%;
+  margin:5rem;
+}
+
 
 
 
