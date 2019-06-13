@@ -40,9 +40,23 @@ section code {
   padding: 0.5em 0.75em;
 }
 
-img{
-  max-width:100%;
+.img{
+	max-width: 100%;
+	height: auto;
 }
+
+.body{
+  margin: 5rem;
+}
+
+.plan{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 2rem;
+}
+
+
+
 
 
 /*
@@ -117,6 +131,30 @@ img{
 .text-field:focus{
   border: 2px solid #E62B1E;
 
+}
+
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#home{
+  background: url(../img/mosaic.png)no-repeat center center fixed;
+}
+
+.home-opening-text h4{
+  color:white;
+
+}
+.home-opening-text{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  width: 20%;
+  margin:5rem;
 }
 
 
