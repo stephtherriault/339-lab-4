@@ -57,8 +57,6 @@ section code {
 
 
 
-
-
 /*
   INTERACTIVE ELEMENTS -------------------
 */
@@ -66,13 +64,13 @@ section code {
 /* Styling for the navigation button */
 .button-nav {
   display: inline-block;
+  margin-bottom:3rem;
   padding: 0.35em 0.6em;
   color: #E62B1E;
   border: 2px solid #E62B1E;
   text-decoration: none;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
-
 }
 
 
@@ -108,6 +106,7 @@ section code {
   border-bottom:none;
   color: #FFF;
   background-color: #000;
+
 }
 
 .main-nav:hover, .main-nav:active{
@@ -166,11 +165,62 @@ body {
 */
 
 
+/*
+FOOTER ----------------
+*/
+footer{
+  position:absolute;
+  left:0;
+  right:0;
+  background-color: #ECECEC;
+  color: #FFF;
+  width:100%;
+  justify-content: flex-end;
+}
+.footer-text{
+margin-top: 1rem;
+list-style: none;
+color: #A1A1A1;
+margin-left:1rem;
+margin-right:1rem;
+font-size: 0.8em;
+}
 
+.footer-link{
+color: #FFF;
+text-decoration: none;
+color: #A1A1A1;
+}
+
+/*
 
 /*
   COMBINED ELEMENTS -------------------
 */
+
+.speaker-stack{
+  position:relative;
+  display: inline-block;
+}
+
+.speaker-stack-info{
+position: absolute;
+top:0;
+margin-top:0rem;
+padding:0.7rem;
+height: 452px;
+width:100%;
+color: #FFF;
+background-color:#E62B1E;
+opacity:0;
+transition: opacity 0.3s ease;
+}
+
+.speaker-stack:hover .speaker-stack-info{
+  opacity:1;
+}
+
+
 
 .content-overview h3 {
 	margin: 0;
@@ -181,7 +231,7 @@ body {
   padding-right: 2rem;
 }
 
-.content-overview img{
+.content-overview{
   padding-top: 2rem;
 }
 
