@@ -40,6 +40,24 @@ section code {
   padding: 0.5em 0.75em;
 }
 
+.img{
+	max-width: 100%;
+	height: auto;
+}
+
+.body{
+  margin: 5rem;
+}
+
+.plan{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 2rem;
+}
+
+
+
+
 
 /*
   INTERACTIVE ELEMENTS -------------------
