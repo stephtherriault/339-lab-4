@@ -117,7 +117,9 @@ section code {
 }
 
 .text-field{
-  width: 50%;
+  width: 100%;
+  max-width:25rem;
+  min-width:15rem;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -129,7 +131,18 @@ section code {
 
 .text-field:focus{
   border: 2px solid #E62B1E;
+}
 
+.long-response{
+  /* write code to make this section larger */
+}
+
+textarea{
+  width: 100%;
+  max-width:25rem;
+  min-width:15rem;
+  height:8rem;
+    border: 2px solid #ccc;
 }
 
 body {
