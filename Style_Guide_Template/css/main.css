@@ -17,6 +17,14 @@ h1{
   color: #E62B1E;
 }
 
+/*
+  Breadcrumb styling -------------------
+*/
+.breadcrumb-active{
+  color: #E62B1E;
+  font-style: normal;
+}
+
 /* nav {
   font-family: 'Porter', sans-serif;
 } */
@@ -134,7 +142,11 @@ section code {
 }
 
 .long-response{
-  /* write code to make this section larger */
+}
+
+.small-text-field{
+  max-width: 4.5rem;
+  min-width: 4.5rem;
 }
 
 textarea{
@@ -142,7 +154,7 @@ textarea{
   max-width:25rem;
   min-width:15rem;
   height:8rem;
-    border: 2px solid #ccc;
+  border: 2px solid #ccc;
 }
 
 body {
