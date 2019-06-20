@@ -93,11 +93,8 @@
 	}
 
 	.home-content{
-		background-color: white;
 		position: relative;
 		top: 700px;
-		margin:1rem;
-		padding: 5rem;
 	}
 
 	.top-break{
@@ -118,10 +115,7 @@
 		top: 10rem;
 	}
 
-	.home-footer{
-		position: relative;
-		top: 50rem;
-	}
+
 
 
 }
