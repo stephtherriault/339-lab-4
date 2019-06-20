@@ -13,6 +13,12 @@ h1{
   font-size: 2rem;
 }
 
+h1-red {
+  font-family: 'Porter', sans-serif;
+  font-size: 2rem;
+  color: #E62B1E;
+}
+
 .h1-highlight{
   color: #E62B1E;
 }
@@ -80,6 +86,15 @@ section code {
 
 }
 
+.button-nav-solid {
+  display: inline-block;
+  margin-bottom:3rem;
+  padding: 0.35em 0.6em;
+  background-color: #E62B1E;
+  color: #FFF;
+  text-decoration: none;
+}
+
 .in-text-nav:link, .in-text-nav:visited{
 
   border-bottom:2px solid #FF9494;
@@ -101,6 +116,7 @@ section code {
   text-decoration: none;
   text-align: center;
 }
+
 .main-nav:link, .main-nav:visited{
 
   border-bottom:none;
@@ -140,21 +156,30 @@ body {
 }
 
 #home{
-  background: url(../img/mosaic.png)no-repeat center center fixed;
+  background: url(../img/set.jpg)no-repeat center center fixed;
 }
 
 .home-opening-text h4{
   color:white;
 
 }
-.home-opening-text{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  background-color: black;
-  width: 20%;
-  margin:5rem;
+
+
+.home-opening-text h1{
+  color: white;
 }
+
+
+.home-content{
+  background-color: white;
+}
+
+
+
+
+
+
+
 
 
 
