@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Speaker Template</title>
+    <title>Payment</title>
 
     <link href="css/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
@@ -20,7 +20,7 @@
     <a class="box-item-nav main-nav" href="Home.html">Home</a>
     <a class="box-item-nav main-nav" href="Speaker1.html">Speakers</a>
     <a class="box-item-nav main-nav" href="Select a product.html">Tickets</a>
-    <a class="box-item-nav main-nav" href="#">Contacts</a>
+    <a class="box-item-nav main-nav" href="volunteer.html">Contacts</a>
     <a class="box-item-nav main-nav" href="#">Partners</a>
   </nav>
   <!-- TOP MENU BAR SECTION-->
@@ -28,68 +28,50 @@
 
           <div class="box body product-select">
             <div class="purchase-breadcrumb">
-              <p> <em class="breadcrumb-active"> Product </em> > Payment > Confirmation</p>
+              <p> Product > <em class="breadcrumb-active"> Payment </em> > Confirmation</p>
             <div>
-            <p><h1>Choose your tickets</h1></p>
+            <p><h1>Payment Method</h1></p>
+          </div>
           </div>
 
 
             <div class="box product-overview">
               <div class="box-item-content plan">
-                <img src="img/wood.jpg" alt="wood">
-                <h2>Early Bird</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </p>
-                <ul>
-                  <li>Service X</li>
-                  <li>Service Y</li>
-                </ul>
-
+                <h2>Verify payment</h2>
                 <form>
-                  <label>Quantity</label>
+                  <label>Card Number</label>
                   <br>
                   <input class="text-field" type="text">
                   </br>
-                </form>
+                  <label>verification number</label>
+                  <br>
+                  <input class="text-field small-text-field" type="text">
+                  </br>
+                <input type="radio" name="gender" value="mastercard" checked> Mastercard<br>
+                <input type="radio" name="gender" value="amex"> Amex<br>
+                <input type="radio" name="gender" value="paypal"> PayPal
+
 
 
 
               </div>
               <div class="box-item-content plan">
-                <img src="img/silver.jpg" alt="silver">
-                <h2>Basic</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </p>
-                <ul>
-                  <li>Service X</li>
-                  <li>Service Y</li>
-                </ul>
+                <h2>Email</h2>
+                <p>Confirm your email address we can send you your ticket </p>
 
                 <form>
-                  <label>Quantity</label>
+                  <label>Primary Email address</label>
+                  <br>
+                  <input class="text-field" type="text">
+                  </br>
+                  <label>Confirm Email</label>
                   <br>
                   <input class="text-field" type="text">
                   </br>
                 </form>
               </div>
 
-              <div class="box-item-content plan">
-                <img src="img/gold.jpg" alt="gold">
-                <h2>Premium</h2>
-                  <p>Lorem ipsum dolor sit amet. </p>
-                <ul>
-                  <li>Service X</li>
-                  <li>Service Y</li>
-                  <li>Service Z</li>
-                </ul>
-
-                <form>
-                  <label>Quantity</label>
-                  <br>
-                  <input class="text-field" type="text">
-                  </br>
-                </form>
-
-              </div>
-                <a class="in-text-nav purchase-next-button" href="payment.html">Next</a>
+                <a class="in-text-nav purchase-next-button" href="confirmation.html">Next</a>
 
 
 

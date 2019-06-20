@@ -23,6 +23,14 @@ h1-red {
   color: #E62B1E;
 }
 
+/*
+  Breadcrumb styling -------------------
+*/
+.breadcrumb-active{
+  color: #E62B1E;
+  font-style: normal;
+}
+
 /* nav {
   font-family: 'Porter', sans-serif;
 } */
@@ -133,7 +141,9 @@ section code {
 }
 
 .text-field{
-  width: 50%;
+  width: 100%;
+  max-width:25rem;
+  min-width:15rem;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -145,7 +155,22 @@ section code {
 
 .text-field:focus{
   border: 2px solid #E62B1E;
+}
 
+.long-response{
+}
+
+.small-text-field{
+  max-width: 4.5rem;
+  min-width: 4.5rem;
+}
+
+textarea{
+  width: 100%;
+  max-width:25rem;
+  min-width:15rem;
+  height:8rem;
+  border: 2px solid #ccc;
 }
 
 body {
