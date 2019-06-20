@@ -5,7 +5,8 @@
 body {
   /*font-family: sans-serif;*/
   font-family: 'Hind', sans-serif;
-  padding: 2rem;
+  margin: 0;
+  padding: 5rem;
 }
 
 h1{
@@ -13,8 +14,22 @@ h1{
   font-size: 2rem;
 }
 
+h1-red {
+  font-family: 'Porter', sans-serif;
+  font-size: 2rem;
+  color: #E62B1E;
+}
+
 .h1-highlight{
   color: #E62B1E;
+}
+
+/*
+  Breadcrumb styling -------------------
+*/
+.breadcrumb-active{
+  color: #E62B1E;
+  font-style: normal;
 }
 
 /* nav {
@@ -40,6 +55,19 @@ section code {
   padding: 0.5em 0.75em;
 }
 
+.img{
+	max-width: 100%;
+	height: auto;
+}
+
+
+.plan{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 2rem;
+}
+
+
 
 /*
   INTERACTIVE ELEMENTS -------------------
@@ -48,13 +76,13 @@ section code {
 /* Styling for the navigation button */
 .button-nav {
   display: inline-block;
+  margin-bottom:3rem;
   padding: 0.35em 0.6em;
   color: #E62B1E;
   border: 2px solid #E62B1E;
   text-decoration: none;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
-
 }
 
 
@@ -62,6 +90,15 @@ section code {
   background-color: #E62B1E;
   color: #FFF;
 
+}
+
+.button-nav-solid {
+  display: inline-block;
+  margin-bottom:3rem;
+  padding: 0.35em 0.6em;
+  background-color: #E62B1E;
+  color: #FFF;
+  text-decoration: none;
 }
 
 .in-text-nav:link, .in-text-nav:visited{
@@ -85,11 +122,13 @@ section code {
   text-decoration: none;
   text-align: center;
 }
+
 .main-nav:link, .main-nav:visited{
 
   border-bottom:none;
   color: #FFF;
   background-color: #000;
+
 }
 
 .main-nav:hover, .main-nav:active{
@@ -100,7 +139,9 @@ section code {
 }
 
 .text-field{
-  width: 50%;
+  width: 100%;
+  max-width:25rem;
+  min-width:15rem;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -112,10 +153,56 @@ section code {
 
 .text-field:focus{
   border: 2px solid #E62B1E;
+}
+
+.long-response{
+}
+
+.small-text-field{
+  max-width: 4.5rem;
+  min-width: 4.5rem;
+}
+
+textarea{
+  width: 100%;
+  max-width:25rem;
+  min-width:15rem;
+  height:8rem;
+  border: 2px solid #ccc;
+}
+
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#home{
+  background: url(../img/set.jpg)no-repeat center center fixed;
+padding:0;
+}
+
+.home-opening-text h4{
+  color:white;
 
 }
 
 
+.home-opening-text h1{
+  color: white;
+}
+
+
+.home-content{
+  background-color: white;
+  padding:5rem;
+
+}
+
+.purchase-next-button{
+
+}
 
 
 
@@ -124,11 +211,62 @@ section code {
 */
 
 
+/*
+FOOTER ----------------
+*/
+footer{
+  position:absolute;
+  left:0;
+  right:0;
+  background-color: #ECECEC;
+  color: #FFF;
+  width:100%;
+  justify-content: flex-end;
+}
+.footer-text{
+margin-top: 1rem;
+list-style: none;
+color: #A1A1A1;
+margin-left:1rem;
+margin-right:1rem;
+font-size: 0.8em;
+}
 
+.footer-link{
+color: #FFF;
+text-decoration: none;
+color: #A1A1A1;
+}
+
+/*
 
 /*
   COMBINED ELEMENTS -------------------
 */
+
+.speaker-stack{
+  position:relative;
+  display: inline-block;
+}
+
+.speaker-stack-info{
+position: absolute;
+top:0;
+margin-top:0rem;
+padding:0.7rem;
+height: 452px;
+width:100%;
+color: #FFF;
+background-color:#E62B1E;
+opacity:0;
+transition: opacity 0.3s ease;
+}
+
+.speaker-stack:hover .speaker-stack-info{
+  opacity:1;
+}
+
+
 
 .content-overview h3 {
 	margin: 0;
@@ -139,7 +277,7 @@ section code {
   padding-right: 2rem;
 }
 
-.content-overview img{
+.content-overview{
   padding-top: 2rem;
 }
 
