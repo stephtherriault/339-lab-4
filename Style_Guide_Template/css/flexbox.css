@@ -50,6 +50,13 @@
 	-ms-flex: 1;
 }
 
+.submit-box{
+	position:relative;
+	margin:5rem;
+	margin-bottom: 10rem;
+	min-width:15rem;
+}
+
 .box-item-demo{
 	flex:1 1 auto;
 	-webkit-flex: 1;
