@@ -80,7 +80,7 @@
 
 @media(min-width: 32em){
 	.theme-content{
-		padding-right: 15rem;
+		padding-right: 5rem;
 	}
 
 
@@ -113,6 +113,11 @@
 	.get-involved{
 		position: relative;
 		top: 10rem;
+	}
+
+	.home-footer{
+		position: relative;
+		top: 55rem;
 	}
 
 
