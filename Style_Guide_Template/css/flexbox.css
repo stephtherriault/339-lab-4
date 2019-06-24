@@ -85,6 +85,8 @@
 
 }
 
+
+
 @media(min-width: 32em){
 	.theme-content{
 		padding-right: 5rem;
@@ -124,7 +126,7 @@
 
 	.home-footer{
 		position: relative;
-		top: 55rem;
+		top: 40rem;
 	}
 
 

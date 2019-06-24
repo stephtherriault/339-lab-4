@@ -95,7 +95,7 @@ section code {
 .button-nav-solid {
   display: inline-block;
   margin-bottom:3rem;
-  padding: 0.35em 0.6em;
+  padding: 0.5em 0.7em;
   background-color: #E62B1E;
   color: #FFF;
   text-decoration: none;
@@ -179,7 +179,7 @@ body {
 }
 
 #home{
-  background: url(../img/set.jpg)no-repeat center center fixed;
+  background: url(../img/home-2.jpg)no-repeat center center fixed;
 padding:0;
 }
 
@@ -201,9 +201,11 @@ padding:0;
 }
 
 .purchase-next-button{
-
 }
 
+.home-filler p {
+  color:white;
+}
 
 
 /*
