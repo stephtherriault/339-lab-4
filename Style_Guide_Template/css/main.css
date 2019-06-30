@@ -24,6 +24,31 @@ h1-red {
   color: #E62B1E;
 }
 
+.event-details h4{
+  line-height: 70%;
+}
+
+.speaker-title{
+  line-height:50%;
+}
+
+.speaker-stack-info{
+  line-height:150%;
+}
+
+.speaker-recommend {
+  margin-top:3.5rem;
+  margin-bottom: 10rem;
+}
+
+.speaker-detail{
+  margin-top: 1.5rem;
+}
+
+.speaker-row-2{
+  margin-top:3rem;
+}
+
 /*
   Breadcrumb styling -------------------
 */
