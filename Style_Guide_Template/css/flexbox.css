@@ -87,11 +87,12 @@
 
 
 
+
+
 @media(min-width: 32em){
 	.theme-content{
 		padding-right: 5rem;
 	}
-
 
 	.home-opening-text{
 		position: absolute;
@@ -100,6 +101,7 @@
 		width: 20%;
 		margin:5rem;
 	}
+
 
 	.home-content{
 		position: relative;

@@ -20,12 +20,15 @@ h1-red {
   color: #E62B1E;
 }
 
+
+
 .h1-highlight{
   color: #E62B1E;
 }
 
 .event-details h4{
-  line-height: 70%;
+  margin-bottom: 0.5rem;
+  margin-top:0;
 }
 
 .speaker-title{
@@ -295,8 +298,7 @@ transition: opacity 0.3s ease;
 
 
 
-.content-overview h3 {
-	margin: 0;
+.speaker-title h3 {
   color: red;
 }
 
